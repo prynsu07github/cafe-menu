@@ -1,0 +1,60 @@
+body{
+    background-image: url(beans.jpg);
+    background-repeat: no-repeat;
+    background-size:cover 790px;
+    
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-color: #deb887;
+    height: 750px;
+    width: 600px;
+    text-align: center;
+    position: relative;
+    
+}
+hr{
+    height: 3px;
+    width: 90%;
+    background-color: rgb(126, 62, 62);
+    border: none;
+}
+
+.menu-items{
+ float: left;
+ margin-left: 20px;
+ text-align: left;    
+}
+.price{
+    float: right;
+    margin-right: 20px;
+}
+p.since{
+    font-style: italic;
+}
+p{
+    font-weight: 500;
+    font-size: 18px;
+}
+.dessert-section{
+    clear: both;
+}
+.dessert-items{
+    float:left;
+    margin-left: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.dessert-price{
+    float: right;
+    margin-right: 20px;
+}
+.base-line{
+ clear: both;
+ height: 3px;
+    width: 90%;
+    background-color: rgb(126, 62, 62);
+    border: none;
+}
